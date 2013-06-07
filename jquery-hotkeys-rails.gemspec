@@ -15,5 +15,5 @@ Gem::Specification.new do |gem|
   gem.name          = "jquery-hotkeys-rails"
   gem.require_paths = ["lib"]
   gem.version       = Jquery::Hotkeys::Rails::VERSION
-  gem.add_dependency "railties", "~> 3.1"
+  gem.add_dependency "railties", ">= 3.1"
 end
